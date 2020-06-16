@@ -1,6 +1,6 @@
-# class Customer < ActiveRecord::Base
-#     has_many :orders
-#     has_many :farmers, through: :orders
+class Customer < ActiveRecord::Base
+    has_many :orders
+    has_many :farmers, through: :orders
 
 #     # attr_accessor :name, :location, :id
 
@@ -15,4 +15,4 @@
 #     # #end
 
 
-# end
+end
