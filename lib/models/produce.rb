@@ -1,4 +1,4 @@
-class Produce < ActiveRecord::Base[5.2]
+class Produce < ActiveRecord::Base
     belongs_to :farmer
 
     attr_accessor :name, :location, :id
